@@ -1,12 +1,12 @@
 import React from 'react';
-import './Button.css';
+import './page-nav-buttons.css';
 import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn-outline'];
 
 const SIZES = ['btn--medium', 'btn-large'];
 
-export const Button = ({
+export const PrevPageButton = ({
     children,
     type,
     onClick,
@@ -17,7 +17,7 @@ export const Button = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return(
-        <Link to ='/page-1' className='btn-mobile'>
+        <Link to ='/module-1' className='btn-mobile'>
             <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}>

@@ -1,0 +1,36 @@
+.footer{
+    background-color: #ecda88;
+    padding: 2rem 0 2rem 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: table-cell;
+}
+
+.space{
+    display: block;
+    padding: 2rem 0 2rem 0;
+    height: 130px;
+    width: 100%;
+}
+
+.mid-footer{
+    text-align: center;
+    color: darkcyan;
+    background-color: darkgray;
+    /* float: left; */
+}
+
+.prev-button{
+    left: 0;
+    padding-left: 40px;
+    /* float: left; */
+    /* al: center; */
+}
+
+.next-button{
+    right: 0;
+    padding-right: 40px;
+    /* float: right; */
+}

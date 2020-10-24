@@ -13,7 +13,7 @@ function Cards() {
                         src="images/img-9.jpg"
                         text='Module 1'
                         label="Adventure"
-                        path="/modules"
+                        path="/module-1"
                         />
                         <CardItem 
                         src="images/img-2.jpg"
@@ -69,7 +69,7 @@ function Cards() {
                         />
                         <CardItem 
                         src="images/img-8.jpg"
-                        text='Module 10'
+                        text='Module 1ß0'
                         label="Adventure"
                         path="/modules"
                         />
