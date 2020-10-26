@@ -29,13 +29,6 @@ function Footer() {
                         <Link to='/sign-up'>How it works</Link>
                         <Link to='/sign-up'>How it works</Link>
                     </div>
-                    <div className="footer-link-items">
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/sign-up'>How it works</Link>
-                    </div>
                 </div>
             </div>
         </div>

@@ -19,13 +19,13 @@ function Cards() {
                         src="images/img-2.jpg"
                         text='Module 2'
                         label="Adventure"
-                        path="/modules"
+                        path="/module-2"
                         />
                         <CardItem 
                         src="images/img-1.jpg"
                         text='Module 3'
                         label="Adventure"
-                        path="/modules"
+                        path="/module-3"
                         />
                     </ul>
                     <ul className="cards__items">
@@ -69,7 +69,7 @@ function Cards() {
                         />
                         <CardItem 
                         src="images/img-8.jpg"
-                        text='Module 1ß0'
+                        text='Module 10'
                         label="Adventure"
                         path="/modules"
                         />

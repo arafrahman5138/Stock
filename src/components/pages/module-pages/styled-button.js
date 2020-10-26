@@ -1,0 +1,38 @@
+import styled from 'styled-components'
+
+export const Button = styled.button`
+  color: #000;
+  background-color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  height: 45px;
+  width: 140px;
+  padding: 0 15px;
+  border-radius: 7px;
+  font-size: 14px;
+  &:hover, &:focus {
+    background-color: #cceeff;
+    border-color: #1c9cd3;
+  }
+  &:not([disabled]):hover {
+    text-decoration: none;
+  }
+  &:not([disabled]):active {
+    outline: 0;
+    box-shadow: none;
+  }
+  &:active {
+    background-color: #eeeeee;
+    border-color: #1c9cd3;
+  }
+  span {
+    font-size: 18px;
+  }
+  svg {
+    width: 18px;
+    vertical-align: sub;
+    margin-right: 7px;
+  }
+}
+`
