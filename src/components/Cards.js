@@ -25,7 +25,7 @@ function Cards() {
                         src="images/img-1.jpg"
                         text='Module 3'
                         label="Adventure"
-                        path="/modules"
+                        path="/mod_test"
                         />
                     </ul>
                     <ul className="cards__items">

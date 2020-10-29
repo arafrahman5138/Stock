@@ -1,23 +1,8 @@
 import React from 'react';
-//import '../../App.css';
-import './ModuleTest.css';
+import './../ModuleTest.css';
 
 class ModuleTest extends React.Component {
-    /**<div classname="navbar">
-                <a href="#home">Home</a>
-                <a href="#test">Testing</a>
-                <button class="dropbtn">More
-                                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="module navigation">
-                    <div class="previous_module">
-                        <a href="https://www.google.com">Previous Module</a>
-                    </div>
-                    <div class="next_module">
-                        <a href="https://www.google.com">Next Module</a>
-                    </div>
-                </div>
-         </div >**/
+
     render() {
 
         return (
