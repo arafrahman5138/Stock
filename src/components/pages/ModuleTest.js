@@ -1,5 +1,6 @@
 import React from 'react';
 import './../ModuleTest.css';
+import ChartSample from '../ChartSample';
 
 class ModuleTest extends React.Component {
 
@@ -66,6 +67,7 @@ class ModuleTest extends React.Component {
                     <hr />
                 </div>
                 <button type='button' id="submitButton" onClick={() => displayAnswer1()} class="submitButton">Submit</button>
+                <ChartSample />
             </body>
 
         );

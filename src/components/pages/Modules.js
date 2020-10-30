@@ -7,7 +7,6 @@ export default function Modules() {
     return (
         <>
             <ChartSample />
-            <div id="container" />
         </>
     )
 }
