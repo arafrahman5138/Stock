@@ -2,8 +2,10 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-const STYLES = ['btn--primary', 'btn-outline'];
+import '../../home/home-components/Button.css';
 // import * as Styled from './StyledButton'
+
+const STYLES = ['btn--primary', 'btn-outline'];
 
 const SIZES = ['btn--medium', 'btn-large'];
 
