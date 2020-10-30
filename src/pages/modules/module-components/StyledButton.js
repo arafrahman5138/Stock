@@ -1,4 +1,4 @@
-// npm install --save styled-components
+// Use npm install --save styled-components to be able to use these buttons
 import styled from 'styled-components'
 
 export const Button = styled.button`
