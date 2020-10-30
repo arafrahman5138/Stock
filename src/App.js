@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
+import Navbar from './pages/home/home-components/Navbar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop.js';
-import Home from './components/pages/Home';
-import Modules from './components/pages/Modules';
-import Help from './components/pages/Help';
-import SignUp from './components/pages/SignUp';
-import Module1 from './components/pages/module-pages/module-1';
-import Mod1Page1 from './components/pages/module-pages/mod-1-pg-1';
-import Module2 from './components/pages/module-pages/module-2';
-import Module3 from './components/pages/module-pages/module-3';
+import Home from './pages/home/Home';
+import Modules from './pages/modules/Modules';
+import Help from './pages/Help';
+import SignUp from './pages/SignUp';
+import Module1 from './pages/modules/module-pages/Module1';
+import Mod1Page1 from './pages/modules/module-pages/Mod1Page1';
+import Module2 from './pages/modules/module-pages/Module2';
+import Module3 from './pages/modules/module-pages/Module3';
 
 function App() {
   return (

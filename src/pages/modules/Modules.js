@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
-import Cards from '../Cards'
-import Footer from '../Footer'
+import Cards from './module-components/Cards'
+import Footer from '../home/home-components/Footer'
 
 export default function Modules() {
     return (

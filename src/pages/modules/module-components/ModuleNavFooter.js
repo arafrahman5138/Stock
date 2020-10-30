@@ -1,7 +1,7 @@
 import React from "react";
-import './module-nav-footer.css'
-import { NextPageButton } from './next-page-button'
-import { PrevPageButton } from './prev-page-button'
+import './ModuleNavFooter.css'
+import { NextPageButton } from './NextPageButton'
+import { PrevPageButton } from './PrevPageButton'
 
 function ModuleNavFooter() {
     return (

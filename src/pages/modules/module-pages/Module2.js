@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../../App.css'
-import ModuleNavFooter from './module-nav-footer'
-import './module.css'
+import ModuleNavFooter from '../module-components/ModuleNavFooter'
+import './Module.css'
 
-export default function Module1() {
+export default function Module2() {
     return (
         <>
         <div>
-            <h1 className='title'>Module 1</h1>
+            <h1 className='title'>Module 2</h1>
             <div> 
                 <p className='content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus viverra vitae congue. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Malesuada fames ac turpis egestas. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Purus non enim praesent elementum facilisis. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Nulla aliquet enim tortor at auctor urna nunc id. Dui id ornare arcu odio ut sem nulla pharetra diam. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Eu ultrices vitae auctor eu augue ut lectus. Fringilla ut morbi tincidunt augue interdum velit euismod in. Tortor at risus viverra adipiscing at in tellus integer. 
                 <br/>

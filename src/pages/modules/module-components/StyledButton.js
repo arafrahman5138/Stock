@@ -1,3 +1,4 @@
+// npm install --save styled-components
 import styled from 'styled-components'
 
 export const Button = styled.button`
@@ -23,7 +24,7 @@ export const Button = styled.button`
     box-shadow: none;
   }
   &:active {
-    background-color: #eeeeee;
+    background-color: #bbddee;
     border-color: #1c9cd3;
   }
   span {
