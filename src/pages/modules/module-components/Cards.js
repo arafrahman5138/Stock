@@ -13,19 +13,23 @@ function Cards() {
                         src="images/img-9.jpg"
                         text='Module 1'
                         label="Adventure"
-                        path="/modules"
+                        path="/module-1"
                         />
                         <CardItem 
                         src="images/img-2.jpg"
                         text='Module 2'
                         label="Adventure"
-                        path="/modules"
+                        path="/module-2"
                         />
                         <CardItem 
                         src="images/img-1.jpg"
                         text='Module 3'
                         label="Adventure"
+<<<<<<< HEAD:src/components/Cards.js
                         path="/mod_test"
+=======
+                        path="/module-3"
+>>>>>>> main:src/pages/modules/module-components/Cards.js
                         />
                     </ul>
                     <ul className="cards__items">
