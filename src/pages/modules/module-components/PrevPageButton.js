@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import '../../home/home-components/Button.css';
 // import * as Styled from './StyledButton'
 
+// Comment this section if using styled buttons -->
 const STYLES = ['btn--primary', 'btn-outline'];
 
 const SIZES = ['btn--medium', 'btn-large'];
@@ -29,6 +30,7 @@ export const PrevPageButton = ({
         </Link>
     )
 };
+// <-- Comment this section if using styled buttons
 
 // export const PrevPageButton = ({ children, onClick, type, title, value }) => {
 //   return (
