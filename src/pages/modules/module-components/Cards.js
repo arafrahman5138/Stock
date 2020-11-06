@@ -33,7 +33,7 @@ function Cards() {
                         src="images/img-3.jpg"
                         text='Module 4'
                         label="Adventure"
-                        path="/modules"
+                        path="/mod_test"
                         />
                         <CardItem 
                         src="images/img-4.jpg"
