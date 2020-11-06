@@ -8,8 +8,8 @@ export default function Modules() {
     return (
         <>
             <Cards />
-            <Footer />
             <ChartSample />
+            <Footer />
         </>
     )
 }
