@@ -21,7 +21,7 @@ export const NextPageButton = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return(
-        <Link to ='/page-1' className='btn-mobile'>
+        <Link to ='/mod_test' className='btn-mobile'>
             <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}>

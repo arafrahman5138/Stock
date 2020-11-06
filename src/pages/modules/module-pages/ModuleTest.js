@@ -19,7 +19,7 @@ class ModuleTest extends React.Component {
                 </table>
                 <table class="moduleContent">
                     <div class="textblock_placeholder">
-                        <p class="placeholder">Module 4</p>
+                        <p class="placeholder">Module 1</p>
                     </div>
                     <div class="credits">
                         <p class="credits_earnable" id="credits_earnable">Credits you can earn: 4</p>
@@ -30,14 +30,14 @@ class ModuleTest extends React.Component {
                     </div>
                 </table>
                 <div class="testingQuiz" id="testingQuiz">
-                    <h3>Which of these stocks would go up based off of the algorithm discussed in Module 2?</h3>
+                    <h3>What is a stock?</h3>
                     <p>Choose 1 answer</p>
                     <hr />
 
                     <div id='block-11'>
                         <label for='option-11'>
                             <input type='radio' name='option' value='Coke' id='option-11'/>
-                        Coke</label>
+                            A piece of a company in which the person buying owns a small portion</label>
                         <span id='result-11'></span>
                     </div>
                     <hr />
@@ -45,7 +45,7 @@ class ModuleTest extends React.Component {
                     <div id='block-12'>
                         <label for='option-12'>
                             <input type='radio' name='option' value='General Electric' id='option-12' />
-                        General Electric</label>
+                        A relationship between a group of people</label>
                         <span id='result-12'></span>
                     </div>
                     <hr />
@@ -53,7 +53,7 @@ class ModuleTest extends React.Component {
                     <div id='block-13'>
                         <label for='option-13'>
                             <input type='radio' name='option' value='Apple' id='option-13'/>
-                        Apple</label>
+                            A physical piece of a company</label>
                         <span id='result-13'></span>
                     </div>
                     <hr />
@@ -61,7 +61,7 @@ class ModuleTest extends React.Component {
                     <div id='block-14'>
                         <label for='option-14'>
                             <input type='radio' name='option' value='FaceBook' id='option-14'/>
-                        FaceBook</label>
+                        A big blob of ice</label>
                         <span id='result-14'></span>
                     </div>
                     <hr />
