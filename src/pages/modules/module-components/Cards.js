@@ -25,11 +25,7 @@ function Cards() {
                         src="images/img-1.jpg"
                         text='Module 3'
                         label="Adventure"
-<<<<<<< HEAD:src/components/Cards.js
-                        path="/mod_test"
-=======
                         path="/module-3"
->>>>>>> main:src/pages/modules/module-components/Cards.js
                         />
                     </ul>
                     <ul className="cards__items">
@@ -37,7 +33,7 @@ function Cards() {
                         src="images/img-3.jpg"
                         text='Module 4'
                         label="Adventure"
-                        path="/modules"
+                        path="/mod_test"
                         />
                         <CardItem 
                         src="images/img-4.jpg"
