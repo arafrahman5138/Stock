@@ -3,14 +3,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../home/home-components/Button.css';
-// import * as Styled from './StyledPageButton'
+// import * as Styled from './StyledModuleButton'
 
 // Comment this section if using styled buttons -->
 const STYLES = ['btn--primary', 'btn-outline'];
 
 const SIZES = ['btn--medium', 'btn-large'];
 
-export const PrevPageButton = ({
+export const NextModuleButton = ({
     children,
     type,
     onClick,
@@ -33,7 +33,7 @@ export const PrevPageButton = ({
 };
 // <-- Comment this section if using styled buttons
 
-// export const PrevPageButton = ({ children, onClick, type, title, value, link }) => {
+// export const NextModuleButton = ({ children, onClick, type, title, value, link }) => {
 //   return (
 //     <Link to ={link} className='btn-mobile'>
 //         <Styled.Button onClick={onClick} 

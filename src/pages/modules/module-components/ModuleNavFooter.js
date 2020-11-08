@@ -5,22 +5,22 @@ import './ModuleNavFooter.css'
 import { NextPageButton } from './NextPageButton'
 import { PrevPageButton } from './PrevPageButton'
 
-function ModuleNavFooter() {
+function ModuleNavFooter(props) {
     return (
         <> 
         <div className='space'>
             <div className='section-container'>
                 <div className='item-container'>
                     <div className='buttons'> 
-                        {/* <PrevPageButton title='Previous Page'/> */}
-                        <PrevPageButton>Previous Page</PrevPageButton>
+                        {/* <PrevPageButton title='Previous Page' link={props.prevLink}/> */}
+                        <PrevPageButton link={props.prevLink}>Previous Page</PrevPageButton>
                     </div>
                     <div className='page-num'>
-                        <p>Page 1/2</p>
+                        <p>Page {props.currentPageNum}/{props.totalPageNum}</p>
                     </div>
                     <div className='buttons'> 
-                        {/* <NextPageButton title='Next Page'/> */}
-                        <NextPageButton>Next Page</NextPageButton>
+                        {/* <NextPageButton title='Next Page' link={props.nextLink}/> */}
+                        <NextPageButton link={props.nextLink}>Next Page</NextPageButton>
                     </div>
                 </div>
             </div>

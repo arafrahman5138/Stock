@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../home/home-components/Button.css';
-// import * as Styled from './StyledButton'
+// import * as Styled from './StyledPageButton'
 
 // Comment this section if using styled buttons -->
 const STYLES = ['btn--primary', 'btn-outline'];
@@ -15,13 +15,14 @@ export const NextPageButton = ({
     type,
     onClick,
     buttonStyle,
-    buttonSize
+    buttonSize,
+    link
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return(
-        <Link to ='/page-1' className='btn-mobile'>
+        <Link to ={link} className='btn-mobile'>
             <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}>
@@ -32,9 +33,9 @@ export const NextPageButton = ({
 };
 // <-- Comment this section if using styled buttons
 
-// export const NextPageButton = ({ children, onClick, type, title, value }) => {
+// export const NextPageButton = ({ children, onClick, type, title, value, link }) => {
 //   return (
-//     <Link to ='/page-1' className='btn-mobile'>
+//     <Link to ={link} className='btn-mobile'>
 //         <Styled.Button onClick={onClick} 
 //             type={type} 
 //             value={value}> 
