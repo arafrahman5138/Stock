@@ -22,8 +22,8 @@ const state = {
 export default class ChartSample extends React.Component {
     render() {
         return (
-            <div class="testingagain">
-                <Line class="testing"
+            <div className="testingagain">
+                <Line className="testing"
                     data={state}
                     options={{
                         title: {

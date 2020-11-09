@@ -8,7 +8,7 @@ import { PrevPageButton } from './PrevPageButton'
 function ModuleNavFooter(props) {
     return (
         <> 
-        <div className='space'>
+        <div>
             <div className='section-container'>
                 <div className='item-container'>
                     <div className='buttons'> 
