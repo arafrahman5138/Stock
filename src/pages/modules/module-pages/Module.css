@@ -1,11 +1,57 @@
-.title{
-    margin: 3rem 8rem;
+html, body{
+    height: 100%;
+    position: relative;
+}
+
+.body{
+    position: relative;
+    min-height: 100%;
+    display: block;
+    overflow: hidden;
 }
 
 .content{
-    margin: 1rem 12rem 3rem;
+    margin: 3rem 12rem 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15pt;
     line-height: 23pt;
     text-align: justify;
+    padding-bottom: 90px;
 }
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .section-container{
+    background-color: #f4ed9f;
+    height: 90px;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-container{
+    width: 70%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.page-num{
+    text-align: center;
+    font-size: 15pt;
+    color: #000;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.buttons{
+    margin: 0 auto;
+    align-items: center;
+} */
+

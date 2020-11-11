@@ -10,27 +10,27 @@ class ModuleTest extends React.Component {
         return (
             <body>
             <link rel="stylesheet" href="https://www.google.com"/>
-                <table class="navigation">
-                    <button class="testing123" onClick="">
+                <table className="navigation">
+                    <button className="testing123" onClick="">
                         Previous Module
                     </button>
-                    <button class="testing456" disabled="true">
+                    <button className="testing456" disabled="true">
                         Next Module    
                     </button>
                 </table>
-                <table class="moduleContent">
-                    <div class="textblock_placeholder">
-                        <p class="placeholder">Module 1</p>
+                <table className="moduleContent">
+                    <div className="textblock_placeholder">
+                        <p className="placeholder">Module 1</p>
                     </div>
-                    <div class="credits">
-                        <p class="credits_earnable" id="credits_earnable">Credits you can earn: 4</p>
-                        <p class="credits_total" id="credits_total">Total credits: 0</p>
+                    <div className="credits">
+                        <p className="credits_earnable" id="credits_earnable">Credits you can earn: 4</p>
+                        <p className="credits_total" id="credits_total">Total credits: 0</p>
                     </div>
-                    <div class="next_content">
+                    <div className="next_content">
                         <button onClick={() => nextContent()} class="continue" id="continue_module" hidden="true">Next page</button>
                     </div>
                 </table>
-                <div class="testingQuiz" id="testingQuiz">
+                <div className="testingQuiz" id="testingQuiz">
                     <h3>What is a stock?</h3>
                     <p>Choose 1 answer</p>
                     <hr />
