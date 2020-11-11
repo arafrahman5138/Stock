@@ -8,7 +8,7 @@ import Navbar from './pages/home/home-components/Navbar'
 import Home from './pages/home/Home';
 import Modules from './pages/modules/Modules';
 import Help from './pages/Help';
-import SignUp from './pages/SignUp';
+import Profile from './pages/Profile';
 import Module1 from './pages/modules/module-pages/Module1';
 import Mod1Page1 from './pages/modules/module-pages/Mod1Page1';
 import Module2 from './pages/modules/module-pages/Module2';
@@ -27,7 +27,7 @@ function App() {
                     <Route exact path='/' component={Home} />
                     <Route path='/modules' component={Modules}/>
                     <Route path='/help' component={Help} />
-                    <Route path='/sign-up' component={SignUp} />
+                    <Route path='/profile' component={Profile} />
 
                     <Route path='/module-1' component={Module1} />
                     <Route path='/page-1' component={Mod1Page1} />
