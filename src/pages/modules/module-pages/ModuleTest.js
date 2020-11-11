@@ -2,6 +2,7 @@ import React from 'react';
 import '../module-pages/ModuleTest.css';
 import ChartSample from '../module-components/ChartSample';
 
+
 class ModuleTest extends React.Component {
 
     render() {

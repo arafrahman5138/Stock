@@ -13,14 +13,14 @@ function ModuleNavFooter() {
                 <div className='item-container'>
                     <div className='buttons'> 
                         {/* <PrevPageButton title='Previous Page'/> */}
-                        <PrevPageButton>Previous Page</PrevPageButton>
+                        <PrevPageButton> Previous Module</PrevPageButton>
                     </div>
                     <div className='page-num'>
-                        <p>Page 1/2</p>
+                        <p>Module 1/10</p>
                     </div>
                     <div className='buttons'> 
                         {/* <NextPageButton title='Next Page'/> */}
-                        <NextPageButton>Next Page</NextPageButton>
+                        <NextPageButton>Take Quiz</NextPageButton>
                     </div>
                 </div>
             </div>
