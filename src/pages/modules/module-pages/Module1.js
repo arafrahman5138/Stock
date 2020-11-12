@@ -43,6 +43,8 @@ export default function Module1() {
                 A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
                 </p>
             </div>
+            {/* <Populate /> */}
+            {/* <ModuleNavFooter /> */}
             <div className='footer'>
                 {/* <div>
                     <div className='section-container'>
