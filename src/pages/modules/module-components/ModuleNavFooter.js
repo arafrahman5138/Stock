@@ -13,9 +13,9 @@ function ModuleNavFooter(props) {
                 <div className='item-container'>
                     
                     
-                    <div className='page-num'>
+                    {/* <div className='page-num'>
                         <p>Module 1/10</p>
-                    </div>
+                    </div> */}
                     {/* <div className='buttons'> 
                         
                         <NextPageButton>Take Quiz</NextPageButton>
