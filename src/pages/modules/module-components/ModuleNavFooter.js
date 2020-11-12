@@ -12,17 +12,6 @@ function ModuleNavFooter(props) {
             <div className='section-container'>
                 <div className='item-container'>
                     <div className='buttons'> 
-<<<<<<< HEAD
-                        {/* <PrevPageButton title='Previous Page'/> */}
-                        <PrevPageButton> Previous Module</PrevPageButton>
-                    </div>
-                    <div className='page-num'>
-                        <p>Module 1/10</p>
-                    </div>
-                    <div className='buttons'> 
-                        {/* <NextPageButton title='Next Page'/> */}
-                        <NextPageButton>Take Quiz</NextPageButton>
-=======
                         {/* <PrevPageButton title='Previous Page' link={props.prevLink}/> */}
                         <PrevPageButton link={props.prevLink}>Previous Page</PrevPageButton>
                     </div>
@@ -32,7 +21,7 @@ function ModuleNavFooter(props) {
                     <div className='buttons'> 
                         {/* <NextPageButton title='Next Page' link={props.nextLink}/> */}
                         <NextPageButton link={props.nextLink}>Next Page</NextPageButton>
->>>>>>> 3ea5509e7f1a1e3ed01d788a69ad52ea15b56f97
+
                     </div>
                 </div>
             </div>

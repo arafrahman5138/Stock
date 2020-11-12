@@ -1,11 +1,8 @@
 import React from 'react'
 import '../../../App.css'
 import ModuleNavFooter from '../module-components/ModuleNavFooter'
-<<<<<<< HEAD
 import Populate from "../module-components/Populate";
-=======
 import ModuleNavHeader from '../module-components/ModuleNavHeader'
->>>>>>> 3ea5509e7f1a1e3ed01d788a69ad52ea15b56f97
 import './Module.css'
 import Mod1Page1 from './Mod1Page1'
 import {PrevPageButton} from '../module-components/PrevPageButton'
@@ -46,10 +43,6 @@ export default function Module1() {
                 A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
                 </p>
             </div>
-<<<<<<< HEAD
-            <Populate />
-            <ModuleNavFooter />
-=======
             <div className='footer'>
                 {/* <div>
                     <div className='section-container'>
@@ -70,7 +63,6 @@ export default function Module1() {
                 </div> */}
                 <ModuleNavFooter currentPageNum='1' totalPageNum='2' nextLink='/page-1' prevLink='/module-1'/>
             </div>
->>>>>>> 3ea5509e7f1a1e3ed01d788a69ad52ea15b56f97
         </div>
         </>
     )
