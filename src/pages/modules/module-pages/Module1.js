@@ -29,19 +29,23 @@ export default function Module1() {
         <div className='body'>
             <ModuleNavHeader title='Module 1' prevLink='/module-1' nextLink='/module-2'/>
             <div> 
-                <p className='content' id = "curriculum"> What is a stock? <br/><br/>
+                <iframe width="420" height="315" className="youtube"
+                    src="https://www.youtube.com/embed/R9OHn5ZF4Uo">
+                </iframe>
+                    <p className='content' id="curriculum"> Some algorithms humans can understand: <br/><br/>
 
-                A stock is a piece of a business. It is not a physical piece, like a brick or glass, but a part of a company's ownership.
+                Prim's Algorithm
                 <br/><br/>
                 {/* <img src="images/img-1.jpg" alt="" className="stock"/>  */}
-                Say for example Anya buys 12 dogs. She is the sole owner of these dogs. She comes to you and asks if you would like to buy a dog from her, she needs the funds to help sustain her other dogs.
-                You decide to buy a dog from her and you now become a shareholder of her greater objective.
+                This algorithm finds the shortest path from "nodes" in a "graph." 
+                What this basically means, is that a node is something of interest, 
+                the graph is the collection of those somethings, and the distance between them, 
+                the distance typically being called edges. An example might be checkpoints 
+                in a race. If the goal of the race is to touch all of the checkpoints, 
+                not necessarily in one order, but in any order, you might want to find 
+                out what the shortest amount of time it takes to go from each checkpoint is.
                 </p>
-                <p className='content'>-What is an Algorithm?<br/>
-                https://www.youtube.com/watch?v=R9OHn5ZF4Uo <br/>
-
-                A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
-                </p>
+                <br />
             </div>
             {/* <Populate /> */}
             {/* <ModuleNavFooter /> */}

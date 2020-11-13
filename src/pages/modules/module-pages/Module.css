@@ -25,6 +25,12 @@ html, body{
     width: 100%;
 }
 
+.youtube{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* .section-container{
     background-color: #f4ed9f;
     height: 90px;
