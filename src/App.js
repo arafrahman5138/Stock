@@ -11,6 +11,7 @@ import Help from './pages/Help';
 import Profile from './pages/Profile';
 import Module1 from './pages/modules/module-pages/Module1';
 import Mod1Page1 from './pages/modules/module-pages/Mod1Page1';
+import Mod1Page2 from './pages/modules/module-pages/Mod1Page2';
 import Module2 from './pages/modules/module-pages/Module2';
 import Module3 from './pages/modules/module-pages/Module3';
 import ModuleTest from './pages/modules/module-pages/ModuleTest';
@@ -31,6 +32,7 @@ function App() {
 
                     <Route path='/module-1' component={Module1} />
                     <Route path='/page-1' component={Mod1Page1} />
+                    <Route path="/page-2" component={Mod1Page2} />
                     <Route path='/module-2' component={Module2} />
                     <Route path='/module-3' component={Module3} />
                     <Route path='/mod_test' component={ModuleTest} />

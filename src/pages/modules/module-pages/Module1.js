@@ -67,7 +67,7 @@ export default function Module1() {
                         </div>
                     </div>
                 </div> */}
-                <ModuleNavFooter currentPageNum='1' totalPageNum='2' nextLink='/page-1' prevLink='/module-1'/>
+                <ModuleNavFooter currentPageNum='1' totalPageNum='3' nextLink='/page-1' prevLink='/module-1'/>
             </div>
         </div>
         </>
