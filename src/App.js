@@ -12,9 +12,15 @@ import Profile from './pages/Profile';
 import Module1 from './pages/modules/module-pages/Module1';
 import Mod1Page1 from './pages/modules/module-pages/Mod1Page1';
 import Mod1Page2 from './pages/modules/module-pages/Mod1Page2';
+import Mod1Page3 from './pages/modules/module-pages/Mod1Page3';
+import Mod1Page4 from './pages/modules/module-pages/Mod1Page4';
+import Mod1Page5 from './pages/modules/module-pages/Mod1Page5';
+import Mod1Page6 from './pages/modules/module-pages/Mod1Page6';
+import summary1 from './pages/modules/module-pages/summary1';
 import Module2 from './pages/modules/module-pages/Module2';
 import Module3 from './pages/modules/module-pages/Module3';
 import ModuleTest from './pages/modules/module-pages/ModuleTest';
+import Quiz1 from './pages/modules/module-pages/Quiz1';
 
 
 function App() {
@@ -33,9 +39,15 @@ function App() {
                     <Route path='/module-1' component={Module1} />
                     <Route path='/page-1' component={Mod1Page1} />
                     <Route path="/page-2" component={Mod1Page2} />
+                    <Route path="/page-3" component={Mod1Page3} />
+                    <Route path="/page-4" component={Mod1Page4} />
+                    <Route path="/page-5" component={Mod1Page5} />
+                    <Route path="/page-6" component={Mod1Page6} />
+                    <Route path="/page-7" component={summary1} />
                     <Route path='/module-2' component={Module2} />
                     <Route path='/module-3' component={Module3} />
                     <Route path='/mod_test' component={ModuleTest} />
+                    <Route path='/Quiz1' component={Quiz1} />
               </Switch>
             </div>
           </Router>
