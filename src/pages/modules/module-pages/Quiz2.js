@@ -5,7 +5,7 @@ import ChartSample from '../module-components/ChartSample';
 import ModuleNavHeader from '../module-components/ModuleNavHeader'
 
 
-class Quiz1 extends React.Component {
+class Quiz2 extends React.Component {
 
     render() {
 
@@ -21,7 +21,7 @@ class Quiz1 extends React.Component {
                     </button> */}
                     
                 </table>
-                <ModuleNavHeader title='Quiz 1' prevLink='/module-1' nextLink='/module-2'/>
+                <ModuleNavHeader title='Quiz 2' prevLink='/module-1' nextLink='/module-3'/>
                 <table className="moduleContent">
                     <div className="textblock_placeholder">
                         <p className="placeholder">Module 1</p>
@@ -164,4 +164,4 @@ class ModuleTest2 extends React.Component {
 
 }
 
-export default Quiz1
+export default Quiz2
