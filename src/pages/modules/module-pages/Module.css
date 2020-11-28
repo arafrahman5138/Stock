@@ -11,6 +11,7 @@ html, body{
 }
 
 .content{
+    position: relative;
     margin: 3rem 12rem 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15pt;
@@ -28,6 +29,12 @@ html, body{
 .youtube{
     display: block;
     margin-left: auto;
+    margin-right: auto;
+}
+
+.embed-image {
+    display: block; 
+    margin-left:auto; 
     margin-right: auto;
 }
 
