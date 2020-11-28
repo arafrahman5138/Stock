@@ -10,7 +10,6 @@ function Home () {
     return (
         <>
             <HeroSection /> 
-            <Cards />
             <ChartSample />
             <Footer />
         </>

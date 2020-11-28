@@ -23,14 +23,18 @@ function ModuleNavFooter(props) {
                         <PrevPageButton link={props.prevLink}>Previous Page</PrevPageButton>
                         <PrevPageButton title='Previous Page'>Previous Page <PrevPageButton/>
                     </div> */}
-                        <PrevPageButton link={props.prevLink}>Previous Page</PrevPageButton>
-
+                    <div className='buttons'>
+                        <PrevPageButton title='Previous Page' onClick={this.props.handlePreviousPage}/>   
+                        {/* <PrevPageButton title='Previous Page' link={props.prevLink}/> */}
+                        {/* <PrevPageButton link={props.prevLink}>Previous Page</PrevPageButton> */}
+                    </div>
                     <div className='page-num'>
-                        <p>Page {props.currentPageNum}/{props.totalPageNum}</p>
+                        <p>Page {this.props.page}/{props.totalPage}</p>
                     </div>
                     <div className='buttons'> 
+                        <NextPageButton title='Next Page' onClick={this.props.handleNextPage}/>
                         {/* <NextPageButton title='Next Page' link={props.nextLink}/> */}
-                        <NextPageButton link={props.nextLink}>Next Page</NextPageButton>
+                        {/* <NextPageButton link={props.nextLink}>Next Page</NextPageButton> */}
                     </div>
                 </div>
             </div>
