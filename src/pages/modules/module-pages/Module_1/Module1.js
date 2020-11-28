@@ -1,12 +1,12 @@
 import React from 'react'
-import '../../../App.css'
-import ModuleNavFooter from '../module-components/ModuleNavFooter'
-import Populate from "../module-components/Populate";
-import ModuleNavHeader from '../module-components/ModuleNavHeader'
-import './Module.css'
+import '../../../../App.css'
+import ModuleNavFooter from '../../module-components/ModuleNavFooter'
+import Populate from "../../module-components/Populate";
+import ModuleNavHeader from '../../module-components/ModuleNavHeader'
+import '../Module.css'
 import Mod1Page1 from './Mod1Page1'
-import {PrevPageButton} from '../module-components/PrevPageButton'
-import {NextPageButton} from '../module-components/NextPageButton'
+import { PrevPageButton } from '../../module-components/PrevPageButton'
+import { NextPageButton } from '../../module-components/NextPageButton'
 
 
 // class Module1 extends React.Component {

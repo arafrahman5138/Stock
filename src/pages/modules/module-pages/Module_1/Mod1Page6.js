@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../../App.css'
-import ModuleNavFooter from '../module-components/ModuleNavFooter'
-import ModuleNavHeader from '../module-components/ModuleNavHeader'
-import './Module.css'
+import '../../../../App.css'
+import ModuleNavFooter from '../../module-components/ModuleNavFooter'
+import ModuleNavHeader from '../../module-components/ModuleNavHeader'
+import '../Module.css'
 
 
 export default function Mod1Page6() {

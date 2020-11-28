@@ -37,12 +37,14 @@ export default class ChartSample extends React.Component {
                         },
                         layout: {
                             padding: {
-                                top: 400,
+                                top: 100,
                                 bottom: 100,
                                 right: 15,
                                 left: 40
                             }
-                        }
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true
 
                     }}
                 />

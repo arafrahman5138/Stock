@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
+    "\\public\\images",
     "\\src",
-    "\\src\\components",
-    "\\src\\images",
     "\\src\\pages",
     "\\src\\pages\\home",
     "\\src\\pages\\home\\home-components",
@@ -11,6 +11,6 @@
     "\\src\\pages\\modules\\module-components",
     "\\src\\pages\\modules\\module-pages"
   ],
-  "SelectedNode": "\\src\\images\\checkpoints.png",
+  "SelectedNode": "\\public",
   "PreviewInSolutionExplorer": false
 }
