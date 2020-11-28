@@ -8,7 +8,7 @@ export const Button = styled.button`
   cursor: pointer;
   transition: all .3s cubic-bezier(.645, .045, .355, 1);
   height: 45px;
-  width: 140px;
+  width: 155px;
   padding: 0 15px;
   border-radius: 7px;
   font-size: 14px;

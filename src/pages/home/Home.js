@@ -9,7 +9,7 @@ import HeroSection from './home-components/HeroSection';
 function Home () {
     return (
         <>
-            <HeroSection /> 
+            <HeroSection />
             <Cards />
             <ChartSample/>
             <Footer />
