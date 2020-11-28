@@ -23,13 +23,13 @@ class Quiz1 extends React.Component {
                 </table>
                 <ModuleNavHeader title='Quiz 1' prevLink='/module-1' nextLink='/module-2'/>
                 <table className="moduleContent">
-                    <div className="textblock_placeholder">
+                    {/* <div className="textblock_placeholder">
                         <p className="placeholder">Module 1</p>
-                    </div>
+                    </div> */} 
                     <div className="credits">
                         <p className="credits_earnable" id="credits_earnable">Credits you can earn: 4</p>
                         <p className="credits_total" id="credits_total">Total credits: 0</p>
-                    </div>
+                    </div> <br/>
                     <div className="next_content">
                         <button onClick={() => nextContent()} class="continue" id="continue_module" hidden="true">Next page</button>
                     </div>
